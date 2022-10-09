@@ -1,0 +1,18 @@
+---
+// Component Imports
+import Hero from "../components/Hero";
+import Bouton_cv from "../components/Bouton_cv";
+import Layout from "../layouts/default.astro";
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+
+<Layout>
+  <Hero
+    title="Curriculum vitae"
+    text="Tout d'abord, j'ai commencé mon cursus post-bac en BTS diététique enfin j'ai exercé au seins d'un hopital pédiatrique à Margency. Néanmoins, j'ai décidé de changer de direction professionnel et d'apprendre l'informatique."
+  />
+  <Bouton_cv />
+  <embed src="./assets/nicolas_serres_CV.pdf" width="1000px" height="900px" />
+</Layout>

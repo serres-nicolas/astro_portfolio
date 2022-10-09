@@ -1,0 +1,22 @@
+.boxdl {
+  display: flex;
+  justify-content: center;
+  border: solid;
+  margin-bottom: 20px;
+}
+.boxdl:hover {
+  display: flex;
+  justify-content: center;
+  background: #ebf4fa;
+  transition: 0.5s;
+}
+.boxdl .dl {
+  font-size: 17px;
+  font-style: italic;
+  font-weight: bold;
+  color: #3d3c3a;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.6em 2em;
+}

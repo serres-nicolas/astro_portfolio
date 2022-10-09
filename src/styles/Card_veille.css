@@ -1,0 +1,105 @@
+.about_section3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  color: #d0ccd0;
+  width: 80%;
+  border-radius: 10px;
+}
+.about_section2 .pveille {
+  margin-top: 10px;
+}
+.sujet_veille {
+  font-weight: bold;
+}
+.flex_tableau {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  width: 50%;
+  height: 50%;
+  position: relative;
+}
+.flex_tableau2 {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+}
+.google_alerte {
+  text-align: center;
+  border-radius: 5px;
+}
+.feadly {
+  background-color: grey;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: -50px;
+}
+.flex_tableau h4 {
+  font-size: 20px;
+  margin: 10px;
+}
+.flex_tableau .feadly p {
+  margin-top: 10px;
+  text-align: justify;
+}
+.flex_tableau .google_alerte p {
+  margin-top: 10px;
+  text-align: justify;
+}
+.flex_tableau .card {
+  background-color: grey;
+  border-radius: 10px;
+}
+.card_img {
+  width: 100%;
+  border-radius: 5px;
+  height: 100%;
+  margin-top: -50px;
+}
+
+.about_section3 .flex_tableau .boxdl {
+  margin-top: 50px;
+}
+
+.about_section3 .flex_tableau .dl:hover {
+  background: #ebf4fa;
+  transition: 0.5s;
+}
+.about_section3 .flex_tableau .boxdl .dl {
+  font-size: 17px;
+  font-style: italic;
+  font-weight: bold;
+  color: #3d3c3a;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.4em 2em;
+  width: 20px;
+  height: 20px;
+  border: solid;
+  border-radius: 10px;
+}
+.logox {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-basis: 100%;
+  height: 50px;
+}
+
+.logo1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 1rem;
+  list-style-type: none;
+}

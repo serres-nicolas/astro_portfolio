@@ -1,0 +1,31 @@
+---
+// Component Imports
+import Hero from "../components/Hero";
+import Card_veille from "../components/Card_veille";
+import Box_veille from "../components/Box_veille";
+import Layout from "../layouts/default.astro";
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+
+<Layout>
+  <Hero
+    title="Veille Technologique"
+    text="Mon sujet de veille en BTS SIO SISR en 2022 à l’ENSUP est: la responsabilité sociétales de l’entreprise Orange face aux risques écologiques mondiales croissant."
+  />
+  <Box_veille
+    title="I/ Définir la veille technologique"
+    text="La veille technologique autrement appeller, veille scientifique et technique. Elle consiste à s'informer de façon systématique sur les techniques les plus récentes. Cette activité met en œuvre des techniques d'acquisition, de stockage et d'analyse d'informations et leur distribution automatique aux différentes sections concernées de l'entreprise, à la manière d'une revue de presse. "
+  />
+  <Box_veille
+    title="II/ Mes démarches pour le suivis de la veille technologique"
+  />
+  <Card_veille
+    title="Google Alertes"
+    text="Hello"
+    img="./assets/mcgoogle.jpg"
+    svg="./assets/google.svg"
+    svgtwo="./assets/bell-solid.svg"
+  />
+</Layout>

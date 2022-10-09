@@ -106,4 +106,9 @@ h1 {
 
 .content {
   margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }

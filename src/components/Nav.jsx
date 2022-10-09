@@ -18,22 +18,22 @@ function Nav() {
             </a>
           </li>
           <li>
-            <a class="mobile_nav_li" href="/Curriculumvitae2.html">
+            <a class="mobile_nav_li" href="/curriculumvitae">
               Curriculum vitae
             </a>
           </li>
           <li>
-            <a class="mobile_nav_li" href="/projet2.html">
+            <a class="mobile_nav_li" href="/projet">
               Projet
             </a>
           </li>
           <li>
-            <a class="mobile_nav_li" href="/veilleit.html">
+            <a class="mobile_nav_li" href="/veille">
               Veille IT
             </a>
           </li>
           <li>
-            <a class="mobile_nav_li" href="/tableau.html">
+            <a class="mobile_nav_li" href="/tableau">
               Tableau
             </a>
           </li>

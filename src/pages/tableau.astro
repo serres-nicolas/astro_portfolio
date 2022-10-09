@@ -1,0 +1,18 @@
+---
+// Component Imports
+import Hero from "../components/Hero";
+import Bouton_cv from "../components/Bouton_cv";
+import Layout from "../layouts/default.astro";
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+
+<Layout>
+  <Hero
+    title="Tableau de synthèse "
+    text=" Ci-dessous mon tableau de synthèse qui regroupe mes différents projets au cours de ces deux années d'études."
+  />
+  <Bouton_cv />
+  <embed src="./assets/t1.pdf" width="1000px" height="900px" />
+</Layout>
