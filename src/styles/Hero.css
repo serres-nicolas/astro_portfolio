@@ -1,0 +1,15 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(229, 228, 226, 0.5);
+  color: #3d3c3a;
+  border-radius: 10px;
+  gap: 1rem;
+  margin-inline: auto;
+  padding: 2rem 1rem;
+  align-items: center;
+  width: min(90%, 1200px);
+}
+.hero > h2 {
+  text-transform: uppercase;
+}

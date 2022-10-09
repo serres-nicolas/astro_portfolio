@@ -1,0 +1,21 @@
+---
+import Nav from "../components/Nav.jsx";
+import Hero from "../components/Hero.jsx";
+import "../styles/global.css";
+---
+
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="./assets/github-alt.svg" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio de Nicolas Serres</title>
+  </head>
+  <body>
+    <Nav />
+    <main class="content">
+      <slot />
+    </main>
+  </body>
+</html>
