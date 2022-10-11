@@ -2,8 +2,10 @@
 // Component Imports
 import Hero from "../components/Hero";
 import Card_veille from "../components/Card_veille";
+import Card_veille_feadly from "../components/Card_veille_feadly";
 import Box_veille from "../components/Box_veille";
 import Layout from "../layouts/default.astro";
+import "../styles/veille.css";
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
@@ -21,11 +23,8 @@ import Layout from "../layouts/default.astro";
   <Box_veille
     title="II/ Mes démarches pour le suivis de la veille technologique"
   />
-  <Card_veille
-    title="Google Alertes"
-    text="Hello"
-    img="./assets/mcgoogle.jpg"
-    svg="./assets/google.svg"
-    svgtwo="./assets/bell-solid.svg"
-  />
+  <section class="about_section3">
+    <Card_veille />
+    <Card_veille_feadly />
+  </section>
 </Layout>

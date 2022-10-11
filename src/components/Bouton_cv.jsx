@@ -5,8 +5,8 @@ function Bouton_cv() {
     <div className="boxdl">
       <a
         className="dl"
-        href="./assets/nicolas_serres_CV..pdf"
-        download="nicolas_serres_CV."
+        href="./assets/nicolas_serres_CV.pdf"
+        download="nicolas_serres_CV.pdf"
       >
         télécharger le CV
       </a>
