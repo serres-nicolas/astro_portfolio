@@ -5,7 +5,7 @@ function Card() {
     <div className="carre">
       <img
         className="item1"
-        src="../public/assets/imgnico.jpg"
+        src="../public/assets/imgnic.jpg"
         width="185"
         height="261"
       />
