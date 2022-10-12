@@ -102,7 +102,7 @@ body {
 }
 
 #Hello {
-  color: orange;
+  color: #b5caed;
   font-size: 25pt;
   margin-left: 40%;
   margin-right: 10%;
@@ -243,17 +243,15 @@ footer .container_footer .footer_pr {
 
 .losange .subject {
   font-size: 22px;
-  color: #f06543;
+  color: #b5caed;
   text-transform: uppercase;
-  position: relative;
   margin-bottom: 20px;
 }
 
 .losange .about_section2_1 .subject_demarches {
   font-size: 22px;
-  color: #f06543;
+  color: #b5caed;
   text-transform: uppercase;
-  position: relative;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -314,7 +312,6 @@ footer .container_footer .footer_pr {
   padding: 20px;
   width: 40%;
   height: 50%;
-  position: relative;
 }
 .flex_tableau2 {
   display: flex;
