@@ -1,4 +1,6 @@
 import "../styles/Nav.css";
+import currentPath from "react-dom";
+
 function Nav() {
   return (
     <header className="header">
@@ -7,13 +9,13 @@ function Nav() {
       </div>
       <nav>
         <ul class="mobile_nav">
-          <li>
-            <a class="mobile_nav_li" href="/">
+          <li class="mobile_nav_li">
+            <a class={currentPath === "" ? "active" : ""} href="/">
               Accueil
             </a>
           </li>
-          <li>
-            <a class="mobile_nav_li" href="/alternance">
+          <li class="mobile_nav_li">
+            <a class={currentPath === "" ? "active" : ""} href="/alternance">
               Alternance
             </a>
           </li>
