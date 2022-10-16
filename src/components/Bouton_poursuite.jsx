@@ -8,7 +8,7 @@ function Bouton_poursuite() {
         href="./assets/mon_projet.pdf"
         download="mon_projet.pdf"
       >
-        Poursuite d'études.
+        Poursuite d'études
       </a>
     </div>
   );
