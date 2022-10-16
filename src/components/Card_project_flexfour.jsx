@@ -1,5 +1,4 @@
 import "../styles/Card_project_flexthree.css";
-import { Icon } from "astro-icon";
 
 function Card_project_flexthree() {
   return (
