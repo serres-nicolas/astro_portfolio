@@ -18,16 +18,16 @@ import "../styles/global.css";
       <slot />
     </main>
     <Footer />
-  </body>
-  <script>
-    const navElements = document.getElementsByClassName("navlink");
-    const navElsNb = navElements.length;
-    for (let i=0; i < navElsNb; i++) {
-      if (navElements[i].href == location.href) {
-        navElements[i].classList.add("active");
-      } else {
-        navElements[i].classList.remove("active");
+    <script>
+      const navElements = document.getElementsByClassName("navlink");
+      const navElsNb = navElements.length;
+      for (let i = 0; i < navElsNb; i++) {
+        if (navElements[i].href == location.href) {
+          navElements[i].classList.add("active");
+        } else {
+          navElements[i].classList.remove("active");
+        }
       }
-    }
-  </script>
+    </script>
+  </body>
 </html>

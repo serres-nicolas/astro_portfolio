@@ -13,6 +13,7 @@
   "dependencies": {
     "@astrojs/vercel": "^2.2.0",
     "astro": "^1.4.6",
+    "astro-icon": "^0.7.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

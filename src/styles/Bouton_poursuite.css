@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   border: solid;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 .boxdl:hover {
   display: flex;
