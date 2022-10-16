@@ -1,6 +1,6 @@
-import "../styles/Card_project_flexthree.css";
+import "../styles/Card_project_flexfour.css";
 
-function Card_project_flexthree() {
+function Card_project_flexfour() {
   return (
     <section class="row-rectangle">
       <a class="button_project" href="./assets/accompagner_utilisateur.pdf">
@@ -28,4 +28,4 @@ function Card_project_flexthree() {
     </section>
   );
 }
-export default Card_project_flexthree;
+export default Card_project_flexfour;
