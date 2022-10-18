@@ -5,7 +5,7 @@ function Card_project_flexfour() {
     <section class="row-rectangle">
       <a class="button_project" href="./assets/accompagner_utilisateur.pdf">
         <h4 class="main_title_project">
-          <p class="appli">ACCOMPAGNEMENT ROUTEUR</p>
+          <p class="appli">ACCOMPAGNEMENT UTILISATEUR</p>
           <img
             src="/assets/router-svgrepo-com.svg"
             alt="Routeur logo"
