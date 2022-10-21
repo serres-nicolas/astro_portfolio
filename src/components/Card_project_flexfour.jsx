@@ -19,7 +19,7 @@ function Card_project_flexfour() {
           <img src="/assets/test-tube.svg" alt="Test logo" class="python_svg" />
         </h4>
       </a>
-      <a class="button_project" href="https://react-etoile.vercel.app/">
+      <a class="button_project" href="https://etoile-astro.vercel.app/">
         <h4 class="main_title_project">
           <p class="appli">DEVELOPPER POUR UNE ORGANISATION</p>
           <img src="/assets/gym.svg" alt="Gym logo" class="python_svg" />
