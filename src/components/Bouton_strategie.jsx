@@ -2,13 +2,13 @@ import "../styles/Bouton_strategie.css";
 
 function Bouton_strategie() {
   return (
-    <div className="boxdl">
+    <div className="contentbtn">
       <a
-        className="dl"
+        className="glassbtn"
         href="./assets/fiche_apprentissage.pdf"
         download="fiche_apprentissage.pdf"
       >
-        Ma stratégie d'apprentissage délimité
+        stratégie d'apprentissage
       </a>
     </div>
   );

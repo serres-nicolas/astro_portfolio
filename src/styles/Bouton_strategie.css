@@ -1,22 +1,19 @@
-.boxdl {
-  display: flex;
-  justify-content: center;
-  border: solid;
-  margin-bottom: 40px;
-}
-.boxdl:hover {
-  display: flex;
-  justify-content: center;
-  background: #ebf4fa;
-  transition: 0.5s;
-}
-.boxdl .dl {
-  font-size: 17px;
-  font-style: italic;
-  font-weight: bold;
-  color: #3d3c3a;
-  text-transform: uppercase;
-  text-align: center;
+.glassbtn {
   text-decoration: none;
-  padding: 0.6em 2em;
+  text-transform: uppercase;
+  padding: 8px 8px;
+  border-radius: 15px;
+  color: #3d3c3a;
+  border: solid 2px rgba(255, 255, 255, 0.5);
+}
+
+.glassbtn:hover {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  border-radius: 15px;
+  color: #3d3c3a;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 16px 3px rgba(255, 255, 255, 0.3);
+  transition: 0.5s;
 }

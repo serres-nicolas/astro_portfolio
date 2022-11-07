@@ -60,12 +60,7 @@ body {
   margin: 0;
   color: var(--t-fg);
   font-family: "Montserrat", "system-ui", sans-serif;
-  background: linear-gradient(
-    45deg,
-    rgba(60, 189, 196),
-    rgba(60, 189, 196),
-    rgba(70, 124, 212) 70.71%
-  );
+  background: linear-gradient(to right top, #2bd4be, #473ee5);
   min-height: 100vh;
 }
 

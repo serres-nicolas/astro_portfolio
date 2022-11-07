@@ -1,0 +1,21 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  /*background-color: #fff9;*/
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: rgb(255, 255, 255) 0px 0px 0px 0.5px;
+  color: #3d3c3a;
+  border-radius: 15px;
+  gap: 1rem;
+  margin-inline: auto;
+  padding: 2rem 2rem;
+  align-items: center;
+  width: min(80%, 1500px);
+  margin-bottom: 40px;
+  font-size: 18px;
+  gap: 30px;
+}
+.hero > h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
