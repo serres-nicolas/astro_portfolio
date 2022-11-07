@@ -42,3 +42,43 @@
   text-decoration-color: #07c5fa;
   text-decoration-thickness: 3px;
 }
+
+@media screen and (max-width: 1210px) {
+  .header > div > h1 {
+    color: #183153;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 80px;
+    padding-left: 5px;
+  }
+  .header > nav {
+    margin-left: 3%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .header > div > h1 {
+    color: #183153;
+    font-size: 0px;
+    font-weight: bold;
+    line-height: 80px;
+    padding-left: 5px;
+  }
+  .header > nav {
+    margin-left: 3%;
+  }
+}
+@media screen and (max-width: 880px) {
+  .header > nav > ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 5px;
+    height: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .header > nav {
+    margin-left: none;
+  }
+}

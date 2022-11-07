@@ -15,14 +15,14 @@
   width: 276px;
   height: 230px;
   border-radius: 20px;
-  background-color: #373f51;
+  background-color: rgba(255, 255, 255, 0.2);
   text-decoration: none;
 }
 section a .main_title_project {
   text-decoration: none;
   z-index: 2;
   text-align: center;
-  color: white;
+  color: #3d3c3a;
 }
 
 section a .main_title_project:hover {
@@ -40,34 +40,36 @@ section .button_project:hover {
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
   color: red;
   visibility: visible;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 section .button_project {
   text-decoration: none;
 }
 
-section a h4 .python_svg {
+section .button_project h4 .python_svg {
   fill: #d0ccd0;
   width: 50%;
   z-index: 1;
 }
-section a h4 .python_svg:hover {
+section .button_project:hover h4 .python_svg {
   fill: #d0ccd0;
   width: 50%;
-  opacity: 0.3;
 }
 section a h4 .appli {
   text-decoration: none;
   text-align: center;
-  color: #d0ccd0;
-  opacity: 0.3;
+  color: #3d3c3a;
+  opacity: 0.5;
   font-size: 22px;
+  text-transform: uppercase;
 }
 section > a:hover > h4 > .appli {
   text-decoration: none;
   text-align: center;
-  color: #d0ccd0;
+  color: #3d3c3a;
   z-index: 2;
   visibility: visible;
   opacity: 1;
   transition: opacity 0.2s linear;
+  text-transform: uppercase;
 }
