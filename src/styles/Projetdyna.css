@@ -1,0 +1,57 @@
+.containerprojet {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.radio-container {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-bottom: 40px;
+  align-items: center;
+  background: #282c34;
+  border-radius: 20px;
+  padding: 10px;
+  color: rgb(243, 243, 243);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.452);
+  width: min(60%, 1500px);
+}
+div .row-rectangle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  width: min(60%, 1500px);
+}
+.containerprojet button {
+  margin: 0 auto 20px;
+  background: none;
+  border: 2px solid #61dafb;
+  padding: 4px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.containerprojet button:hover {
+  margin: 0 auto 20px;
+  background: none;
+  border: 2px solid #61dafb;
+  padding: 4px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  background: #61dafb;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.containerprojet .radio-container label {
+  margin-left: 10px;
+  cursor: pointer;
+}

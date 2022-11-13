@@ -1,0 +1,70 @@
+div ul a .main_title_project {
+  font-size: 30px;
+  color: #3d3c3a;
+  text-align: center;
+  width: 276px;
+  height: 230px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+}
+div ul a h4 .appli {
+  text-decoration: none;
+  text-align: center;
+  color: #3d3c3a;
+  opacity: 0.5;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+div ul a .main_title_project {
+  text-decoration: none;
+  z-index: 2;
+  text-align: center;
+  color: #3d3c3a;
+}
+div ul a .main_title_project:hover {
+  text-decoration: none;
+  text-align: center;
+  visibility: visible;
+}
+div ul .button_project:hover {
+  transition: 0.5s;
+  border-radius: 20px;
+  text-decoration: none;
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  color: red;
+  visibility: visible;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+div ul .button_project {
+  text-decoration: none;
+}
+div ul .button_project h4 .python_svg {
+  fill: #d0ccd0;
+  width: 50%;
+  z-index: 1;
+}
+div ul .button_project:hover h4 .python_svg {
+  fill: #d0ccd0;
+  width: 50%;
+}
+div ul a h4 .appli {
+  text-decoration: none;
+  text-align: center;
+  color: #3d3c3a;
+  opacity: 0.5;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+div ul > a:hover > h4 > .appli {
+  text-decoration: none;
+  text-align: center;
+  color: #3d3c3a;
+  z-index: 2;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.2s linear;
+  text-transform: uppercase;
+}

@@ -1,0 +1,21 @@
+---
+// Component Imports
+import Projetdyna from "../components/Projetdyna";
+import Layout from "../layouts/default.astro";
+import Bouton_strategie from "../components/Bouton_strategie";
+import "../styles/projet.css";
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+
+<Layout>
+  <section class="hero">
+    <h2>MES DIFFERENTS PROJETS</h2>
+    <p>
+      Voici mes différents projets effectuer durant ces deux années, ainsi que
+      ma stratégie d'apprentissage délimité.
+    </p>
+    <Bouton_strategie />
+  </section>
+  <Projetdyna client:load />
+</Layout>
