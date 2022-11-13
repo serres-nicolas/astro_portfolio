@@ -1,14 +1,9 @@
 ---
 // Component Imports
-import Card_project_flex from "../components/Card_project_flex";
-import Card_project_flextwo from "../components/Card_project_flextwo";
-import Card_project_flexthree from "../components/Card_project_flexthree";
-import Card_project_flexfour from "../components/Card_project_flexfour";
-import Card_project_flexfive from "../components/Card_project_flexfive";
+import Projetdyna from "../components/Projetdyna";
 import Layout from "../layouts/default.astro";
 import Bouton_strategie from "../components/Bouton_strategie";
 import "../styles/projet.css";
-
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
 ---
@@ -22,9 +17,5 @@ import "../styles/projet.css";
     </p>
     <Bouton_strategie />
   </section>
-  <Card_project_flex />
-  <Card_project_flextwo />
-  <Card_project_flexthree />
-  <Card_project_flexfour />
-  <Card_project_flexfive />
+  <Projetdyna client:load />
 </Layout>

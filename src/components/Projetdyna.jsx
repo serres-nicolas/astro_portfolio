@@ -42,10 +42,39 @@ const Projet = () => {
       img: "./assets/envelope-regular.svg",
       type: "Réseau",
     },
-
+    {
+      name: "React JS",
+      pdf: "./assets/react_projet.pdf",
+      img: "./assets/react.svg",
+      type: "Développement",
+    },
+    {
+      name: "Astro",
+      pdf: "./assets/astro_project.pdf",
+      img: "/assets/favicon.svg",
+      type: "Développement",
+    },
+    {
+      name: "Accompagnement Utilisateur",
+      pdf: "./assets/accompagner_utilisateur.pdf",
+      img: "/assets/router-svgrepo-com.svg",
+      type: "Système",
+    },
+    {
+      name: "Test d'intégration",
+      pdf: "./assets/test_integ.pdf",
+      img: "/assets/test-tube.svg",
+      type: "Réseau",
+    },
+    {
+      name: "Développer pour une organisation",
+      pdf: "https://etoile-astro.vercel.app/",
+      img: "/assets/gym.svg",
+      type: "Développement",
+    },
     {
       name: "Glpi",
-      pdf: "./assets/accompagner_utilisateur.pdf",
+      pdf: "./assets/projet_glpi.pdf",
       img: "./assets/g.svg",
       type: "Système",
     },
