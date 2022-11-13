@@ -1,6 +1,6 @@
 ---
 // Component Imports
-import Hero from "../components/Hero";
+
 import Layout from "../layouts/default.astro";
 import "../styles/alternance.css";
 
@@ -9,15 +9,14 @@ import "../styles/alternance.css";
 ---
 
 <Layout>
-  <Hero
-    title="Mon alternance"
-    text="J'ai eu la chance d'intégrer l'équipe de chez Orange pour me permettre d'entreprendre mon BTS SIO SISR en alternance. "
-  />
-  <div class="container">
+  <div class="hero">
+    <h2>Mon alternance</h2>
+    <p>
+      J'ai eu la chance d'intégrer l'équipe de chez Orange pour me permettre
+      d'entreprendre mon BTS SIO SISR en alternance.
+    </p>
+    <hr />
     <div class="content_txt">
-      <div class="content_title">
-        <h2 class="titre2">Présentation</h2>
-      </div>
       <p class="text1">
         Le poste que j'occupe est "apprenti technicien réseau structurant" au
         sein de l'unité d'intervention porte de Paris: "UI PP". Cela comprend
@@ -28,9 +27,24 @@ import "../styles/alternance.css";
         l'ensemble des missions : le réseau mobile, la transmission et la
         commutation.
       </p>
+      <div class="contentimg">
+        <img src="./assets/log-orange.png" alt="orange" class="img1" />
+      </div>
     </div>
-    <div class="contentimg">
-      <img src="./assets/illustration2.svg" alt="orange" class="img1" />
+    <div class="content_txt">
+      <p class="text1">
+        Le poste que j'occupe est "apprenti technicien réseau structurant" au
+        sein de l'unité d'intervention porte de Paris: "UI PP". Cela comprend
+        différentes activités telle que: la maintenance et la production du
+        réseau sur deux départements: le Val d'oise et les Yvelines. Je fais
+        partis d'une équipe de 15 techniciens et un expert. Les techniciens
+        malgrés leurs spécialitées de formation sont amenés à travailler sur
+        l'ensemble des missions : le réseau mobile, la transmission et la
+        commutation.
+      </p>
+      <div class="contentimg">
+        <img src="./assets/illustration2.svg" alt="orange" class="img1" />
+      </div>
     </div>
   </div>
 </Layout>
