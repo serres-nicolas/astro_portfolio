@@ -8,7 +8,7 @@ function Bouton_strategie() {
         href="./assets/fiche_apprentissage.pdf"
         download="fiche_apprentissage.pdf"
       >
-        stratégie d'apprentissage
+        Stratégie d'apprentissage
       </a>
     </div>
   );

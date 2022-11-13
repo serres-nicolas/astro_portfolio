@@ -6,9 +6,12 @@
   align-items: center;
   align-content: center;
   margin-bottom: 30px;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px;
+  background: rgba(254, 254, 254, 0.131);
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  box-shadow: inset 42.4px -42.4px 42.4px rgba(193, 193, 193, 0.131),
+    inset -42.4px 42.4px 42.4px rgba(255, 255, 255, 0.131);
+  backdrop-filter: blur(6.784px);
+  border-radius: 20px;
   margin-top: 8em;
 }
 .item1 {
@@ -27,7 +30,7 @@
   justify-content: center;
   font-size: 30px;
   font-weight: bold;
-  color: #3d3c3a;
+  color: #ffffff;
   text-align: center;
 }
 .item3 {
@@ -35,14 +38,14 @@
   flex-basis: 100%;
   display: flex;
   justify-content: center;
-  color: #3d3c3a;
+  color: #19344d;
 }
 .item4 {
   padding-top: 10px;
   flex-basis: 100%;
   display: flex;
   justify-content: center;
-  color: #3d3c3a;
+  color: #19344d;
   border-bottom-width: 10px;
   border-bottom: solid;
   border-bottom-color: white;

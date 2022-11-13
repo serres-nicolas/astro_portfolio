@@ -1,21 +1,23 @@
 .hero {
   display: flex;
   flex-direction: column;
-  /*background-color: #fff9;*/
-  background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: rgb(255, 255, 255) 0px 0px 0px 0.5px;
-  color: #3d3c3a;
-  border-radius: 15px;
+  background: rgba(254, 254, 254, 0.131);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: inset 42.4px -42.4px 42.4px rgba(193, 193, 193, 0.131),
+    inset -42.4px 42.4px 42.4px rgba(255, 255, 255, 0.131);
+  backdrop-filter: blur(6.784px);
+  border-radius: 20px;
+  color: #041b15;
   gap: 1rem;
   margin-inline: auto;
   padding: 2rem 2rem;
-  align-items: center;
   width: min(80%, 1500px);
   margin-bottom: 40px;
   font-size: 18px;
-  gap: 30px;
+  gap: 40px;
+  z-index: 1;
 }
 .hero > h2 {
-  text-transform: uppercase;
-  font-size: 30px;
+  font-size: 36px;
+  color: #ffffff;
 }
