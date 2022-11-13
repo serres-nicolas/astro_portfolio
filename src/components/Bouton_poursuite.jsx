@@ -2,9 +2,9 @@ import "../styles/Bouton_poursuite.css";
 
 function Bouton_poursuite() {
   return (
-    <div className="boxdl">
+    <div className="contentbtn2">
       <a
-        className="dl"
+        className="glassbtn2"
         href="./assets/mon_projet.pdf"
         download="mon_projet.pdf"
       >

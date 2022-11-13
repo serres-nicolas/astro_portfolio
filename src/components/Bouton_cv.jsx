@@ -2,13 +2,13 @@ import "../styles/Bouton_cv.css";
 
 function Bouton_cv() {
   return (
-    <div className="boxdl">
+    <div className="contentbtn">
       <a
-        className="dl"
+        className="glassbtn"
         href="./assets/nicolas_serres_CV.pdf"
         download="nicolas_serres_CV.pdf"
       >
-        télécharger le CV
+        Télécharger le CV
       </a>
     </div>
   );
