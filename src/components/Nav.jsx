@@ -1,47 +1,48 @@
+import React from "react";
+import { NavLink } from "react-router-dom";
 import "../styles/Nav.css";
-import currentPath from "react-dom";
 
-function Nav() {
+const Nav = () => {
   return (
-    <header className="header">
-      <div>
-        <h1>Nicolas Serres</h1>
-      </div>
-      <nav>
-        <ul class="mobile_nav">
-          <li class="mobile_nav_li">
-            <a class={currentPath === "" ? "active" : ""} href="/">
-              Accueil
-            </a>
-          </li>
-          <li class="mobile_nav_li">
-            <a class={currentPath === "" ? "active" : ""} href="/alternance">
-              Alternance
-            </a>
-          </li>
-          <li>
-            <a class="mobile_nav_li" href="/curriculumvitae">
-              Curriculum vitae
-            </a>
-          </li>
-          <li>
-            <a class="mobile_nav_li" href="/projet">
-              Projet
-            </a>
-          </li>
-          <li>
-            <a class="mobile_nav_li" href="/veille_old">
-              Veille IT
-            </a>
-          </li>
-          <li>
-            <a class="mobile_nav_li" href="/tableau">
-              Tableau
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <div className="header">
+      <h1>Nicolas Serres</h1>
+      <ul className="mobile_nav">
+        <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+          <li>Accueil</li>
+        </NavLink>
+        <NavLink
+          to="/about"
+          className={(nav) => (nav.isActive ? "nav-active" : "")}
+        >
+          <li>Alternance</li>
+        </NavLink>
+        <NavLink
+          to="/about"
+          className={(nav) => (nav.isActive ? "nav-active" : "")}
+        >
+          <li>Curriculum Vitae</li>
+        </NavLink>
+        <NavLink
+          to="/about"
+          className={(nav) => (nav.isActive ? "nav-active" : "")}
+        >
+          <li>Projet</li>
+        </NavLink>
+        <NavLink
+          to="/about"
+          className={(nav) => (nav.isActive ? "nav-active" : "")}
+        >
+          <li>Veille IT</li>
+        </NavLink>
+        <NavLink
+          to="/about"
+          className={(nav) => (nav.isActive ? "nav-active" : "")}
+        >
+          <li>Tableau</li>
+        </NavLink>
+      </ul>
+    </div>
   );
-}
+};
+
 export default Nav;

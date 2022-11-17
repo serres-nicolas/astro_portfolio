@@ -8,7 +8,7 @@ const Projet = () => {
   const array_projet = [
     {
       name: "Python Socket",
-      pdf: "./assets/projet_python.pdf",
+      pdf: "https://astro-portfolio-serres-nicolas.vercel.app/projet/projet_python.pdf",
       img: "./assets/python.svg",
       type: "Développement",
     },
