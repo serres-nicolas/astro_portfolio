@@ -1,30 +1,175 @@
 ---
 // Component Imports
-import Hero from "../components/Hero";
-import Card_veille from "../components/Card_veille";
-import Card_veille_feadly from "../components/Card_veille_feadly";
-import Box_veille from "../components/Box_veille";
+import Bouton_source from "../components/Bouton_source";
 import Layout from "../layouts/default.astro";
 import "../styles/veille.css";
-
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
 ---
 
 <Layout>
-  <Hero
-    title="Veille Technologique"
-    text="Mon sujet de veille en BTS SIO SISR en 2022 à l’ENSUP est: la responsabilité sociétales de l’entreprise Orange face aux risques écologiques mondiales croissant."
-  />
-  <Box_veille
-    title="I/ Définir la veille technologique"
-    text="La veille technologique autrement appeller, veille scientifique et technique. Elle consiste à s'informer de façon systématique sur les techniques les plus récentes. Cette activité met en œuvre des techniques d'acquisition, de stockage et d'analyse d'informations et leur distribution automatique aux différentes sections concernées de l'entreprise, à la manière d'une revue de presse. "
-  />
-  <Box_veille
-    title="II/ Mes démarches pour le suivis de la veille technologique"
-  />
-  <section class="about_section3">
-    <Card_veille />
-    <Card_veille_feadly />
-  </section>
+  <div class="hero">
+    <h2 class="titletop">Veille technologie</h2>
+    <div class="content_txt">
+      <p class="text1">
+        La veille technologique autrement appeller, veille scientifique et
+        technique. Elle consiste à s'informer de façon systématique sur les
+        techniques les plus récentes. Cette activité met en œuvre des techniques
+        d'acquisition, de stockage et d'analyse d'informations et leur
+        distribution automatique aux différentes sections concernées de
+        l'entreprise, à la manière d'une revue de presse.
+      </p>
+      <div class="contentimg">
+        <img src="./assets/iconnote.png" alt="iconnote" class="img1" />
+      </div>
+    </div>
+    <hr />
+    <div class="content_span">
+      <p class="textspan">
+        Mon sujet de veille en BTS SIO SISR en 2022 à l’ENSUP est: la
+        responsabilité sociétales de l’entreprise Orange face aux risques
+        écologiques mondiales croissant.
+      </p>
+    </div>
+    <h2 class="intertitle">Mes démarches</h2>
+    <p>
+      Pour le suivi de la veille technologique, j’ai utilisé les outils
+      suivants.
+    </p>
+    <div class="conteneurimg">
+      <a
+        href="./assets/demarches.pdf"
+        class="contentfirst"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="./assets/allura.png" alt="iconnote" class="FD" />
+        <div class="purplebottom">
+          <h3 class="titlefead">Googles Alertes</h3>
+          <p class="cardtxt">
+            C'est un service qui envoie un courriel ou une alerte lorsqu'une
+            nouvelle page web correspondant aux mots-clés que l'on a choisis,
+            apparaît dans les résultats Google.
+          </p>
+        </div>
+      </a>
+      <a
+        href="./assets/demarches.pdf"
+        class="contenttwo"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="./assets/alluraon.png" alt="iconnote" class="GA" />
+        <div class="greenbottom">
+          <h3 class="titlefead">Feadly</h3>
+          <p class="cardtxt">
+            C'est une entité qui combine plusieurs services ou informations en
+            un seul outil de flux RSS et Atom en ligne permettant de gérer et
+            personnaliser ces abonnements.
+          </p>
+        </div>
+      </a>
+    </div>
+    <div class="content_synth">
+      <h2 class="intertitle">Synthèse</h2>
+      <p class="txtsynth">
+        Feu de forêt, records de température, fonte des glaciers, aujourd’hui
+        les impacts de la crise climatique n’ont jamais été aussi présent dans
+        notre quotidien. Nous allons voir ici, la responsabilité sociétale de
+        l’entreprise orange face aux risque écologique mondiale croissant. Le
+        Groupe d’Experts Intergouvernemental sur l’Evolution du Climat (GIEC),
+        présentait dans son rapport de février 2022 les effets, les
+        vulnérabilités et les capacités d’adaptation face à la crise climatique.
+        En avril 2022, dans un second rapport le GIEC fait état de différentes
+        solutions permettant l’affaiblissement du réchauffement climatique
+        résumé en deux axes une énergie moins carbonée et une réduction
+        énergétique L’Union Européenne (UE) est le troisième plus grand émetteur
+        de gaz à effet de serre au monde après la Chine et les Etats-Unis.
+        Néanmoins, l’UE est engagée et définit son objectif de réduction carbone
+        au minimum à 55% d’ici 2030 et à la neutralité en 2050. Le secteur de
+        l’énergie est le plus grand émetteur de gaz à effet de serre au sein de
+        l’UE tant dis que celui du numérique ne représente à ce jour que 4% de
+        l’émission mondiale et 2,5% au national. Néanmoins, ces chiffres sont en
+        pleine croissance. Si le secteur du numérique n’est pas régulé, il
+        pourrait représenter près de 60% des émissions de gaz à effet de serre
+        en France d’ici 2040. Dans le secteur du numérique et plus précisément
+        celui des télécoms, deux acteurs cadrent et régulent l’impact
+        environnemental. Au niveau européen, l’organe des régulateurs européens
+        des communications électroniques (ORECE) présente quatre axes de
+        régulations pour contrer l’augmentation de l’impact environnemental du
+        secteur. Fiabilisé les données disponibles et favoriser une
+        harmonisation des méthodologies Encourager la transparence et mener une
+        régulation par la donnée au bénéfice des utilisateurs Identifier et
+        promouvoir les bonnes pratiques dans le secteur Mettre les outils de
+        régulation au service de l’enjeu environnemental. Au niveau national,
+        l’autorité de régulation des communications électroniques, des postes et
+        de la distribution de la presse (ARCEP) collecte des informations auprès
+        des 4 opérateurs majeurs en France dont Orange afin de qualifier et
+        quantifier l’empreinte environnementale du numérique sur l’ensemble du
+        système sur le territoire. Le recueil de ces données permet de définir
+        des leviers d’actions et des bonnes pratiques pour réduire l’empreinte
+        carbone. Au sein du secteur, Orange est le pionnier sur le plan
+        écologique, engagé depuis 2008 c’est le premier opérateur telecom à
+        recevoir la norme ISO 14001 pour avoir mis en place un système de
+        management environnemental efficace en 2018. En effet, en 2019
+        l’entreprise intègre la « liste A » du Carbone Disclosure Project (CDP),
+        l’organisation internationale de référence sur le reporting des
+        émissions de gaz à effet de serre. Orange fait partie des organisations
+        les plus performantes en matière de reporting environnemental. De plus,
+        en 2020 l’empreinte carbone de l’usage client à diminuer de 50% tel que
+        cela a été fixé lors de la COP 21 en 2015. En l’espèce, l’entreprise
+        renouvelle ses efforts en 2020 pour 2025 avec le plan Green ITN (IT
+        network) et ces outils tel que Scope 1,2,3 qui permette la mesure du
+        bilan carbone. Le but étant d’améliorer l’efficacité énergétiques et
+        environnementales de ces réseaux et système d’information. La réduction
+        des émissions de CO2 de 2015 à 2021 sont de 12,1% et l’entreprise vise
+        30% dès 2025. Quant au levier d’action du plan Green IT: Moderniser les
+        équipements électroniques pour bénéficier des dernières technologies
+        moins consommatrices d’électricité. Déployer des architectures
+        innovantes, permettant par exemple la climatisation passive des centres
+        de données ou l’activation de modes "veille" sur nos réseaux. Alimenter
+        les réseaux avec des énergies renouvelables. Utiliser l’intelligence
+        artificielle et les données pour optimiser le déploiement et
+        l’exploitation des infrastructures. Mesurer précisément les
+        consommations pour pouvoir les réduire partout où cela est possible.
+        Partager les infrastructures avec d’autres opérateurs pour optimiser
+        leur utilisation. Mener des programmes de recherche sur la sobriété
+        énergétique des réseaux et SI. Egalement, premier acteur à mettre en
+        place plus de 2800 sites mobiles à énergie solaire ont été déployé en
+        Afrique, Slovaquie, la Jordanie quant à elle bénéficie de trois ferme
+        solaires. Un Contrat d’achat à long terme d’énergie renouvelable dans
+        différents pays. De la même manière en France Boralex fournira 67GWh/an
+        d’électricité renouvelable produite par des éoliennes en région Auvergne
+        Rhône Alpes. En ce qui concerne les datacenters: modification des
+        alimentations utilisant moins de cuivre et moins de porte sous forme de
+        chaleur. Le recours à la climatisation passive: free cooling, utilisant
+        l’air ambiant pour refroidir les serveurs. La virtualisation des
+        serveurs réduit le nombre de machines physique. De la même manière
+        l’efficacité énergétique est au coeur de l’évolution des technologies
+        mobiles: À chaque génération de technologie mobile, les réseaux ont
+        enregistré des gains significatifs en efficacité énergétique : la 4G est
+        ainsi dix fois moins consommatrice d’électricité que la 3G, elle-même
+        dix fois plus sobre que la 2G. La 5G pourra s’étendre jusqu’à 20 fois
+        moins en 2030 que la 4G grace à la capacité du réseau à entrer dans des
+        mode de « veille profonde » la où les antennes 4G consomment
+        constamment. L’entreprise a annoncé son objectif « Net Zéro Carbone » en
+        2040. En l’espèce, l’entreprise si elle le réalise, aura 10 ans d’avance
+        sur les objectifs de son secteur. Dorénavant, elle renforce ses actions
+        précédentes: reduction des émissions de gaz à effet de serre, les
+        énergies renouvelables, l’économie circulaire et les étendre. Pour
+        finaliser, l’entreprise investit dans la séquestration carbone qui est
+        un processus qui consiste à capter le CO2 dans l’atmosphère et à le
+        stocker dans des « puits de carbone naturel ». Orange Nature, finance
+        une trentaine de projet de reboisement en France cela représente un
+        total de 175 hectares de forêts représentant plus de 32 000 tonnes de
+        CO2 séquestrées. En substance, Orange s’engage contre le réchauffement
+        climatique en développant plusieurs programmes eco-responsable. Il faut
+        avoir conscience que malgré tout, l’entreprise rejettera du CO2 de part
+        son activité numérique. Grace à la technologie de la séquestration de
+        carbone, c’est cette dernière qui lui permettra de descendre au Net Zéro
+        Carbone.
+      </p>
+      <Bouton_source />
+    </div>
+  </div>
 </Layout>
