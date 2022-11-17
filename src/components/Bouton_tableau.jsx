@@ -3,7 +3,13 @@ import "../styles/Bouton_tableau.css";
 function Bouton_tableau() {
   return (
     <div className="contentbtn">
-      <a className="glassbtn" href="./assets/t1.pdf" download="t1.pdf">
+      <a
+        className="glassbtn"
+        href="./assets/t1.pdf"
+        download="t1.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Télécharger le tableau
       </a>
     </div>

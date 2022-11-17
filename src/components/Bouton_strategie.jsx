@@ -7,6 +7,8 @@ function Bouton_strategie() {
         className="glassbtn"
         href="./assets/fiche_apprentissage.pdf"
         download="fiche_apprentissage.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         Stratégie d'apprentissage
       </a>

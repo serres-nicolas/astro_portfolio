@@ -7,6 +7,8 @@ function Bouton_cv() {
         className="glassbtn"
         href="./assets/nicolas_serres_CV.pdf"
         download="nicolas_serres_CV.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         Télécharger le CV
       </a>

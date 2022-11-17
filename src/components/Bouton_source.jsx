@@ -7,6 +7,8 @@ function Bouton_source() {
         className="glassbtn"
         href="./assets/articles.pdf"
         download="articles.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         Mes sources
       </a>

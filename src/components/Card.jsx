@@ -23,6 +23,8 @@ function Card() {
           <li>
             <a
               className="logoo"
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/nicolas-serres-709087152/"
             >
               {" "}
@@ -36,7 +38,12 @@ function Card() {
             </a>
           </li>
           <li>
-            <a className="logoo" href="https://github.com/serres-nicolas">
+            <a
+              className="logoo"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/serres-nicolas"
+            >
               {" "}
               <svg
                 className="logox"
@@ -48,7 +55,12 @@ function Card() {
             </a>
           </li>
           <li>
-            <a className="logoo" href="https://gitlab.com/Miracle_s/">
+            <a
+              className="logoo"
+              href="https://gitlab.com/Miracle_s/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {" "}
               <svg
                 className="logox"

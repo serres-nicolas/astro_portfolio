@@ -3,7 +3,12 @@ import "../styles/CardProjet.css";
 
 const CardProjet = ({ projet }) => {
   return (
-    <a className="button_project" href={projet.pdf}>
+    <a
+      className="button_project"
+      href={projet.pdf}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <h4 className="main_title_project">
         <img
           className="python_svg"

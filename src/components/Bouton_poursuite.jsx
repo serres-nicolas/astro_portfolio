@@ -7,6 +7,8 @@ function Bouton_poursuite() {
         className="glassbtn2"
         href="./assets/mon_projet.pdf"
         download="mon_projet.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         Poursuite d'études
       </a>
