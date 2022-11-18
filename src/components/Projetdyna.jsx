@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CardProjet from "./CardProjet";
 import "../styles/Projetdyna.css";
+import pythonPdf from "../../public/assets/projet_python.pdf";
 
 const Projet = () => {
   const [rangeValue, setRangeValue] = useState(36);
@@ -8,7 +9,7 @@ const Projet = () => {
   const array_projet = [
     {
       name: "Python Socket",
-      pdf: "./assets/projet_python.pdf",
+      pdf: pythonPdf,
       img: "./assets/python.svg",
       type: "Développement",
     },
