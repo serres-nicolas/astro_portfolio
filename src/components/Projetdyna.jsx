@@ -69,7 +69,7 @@ const Projet = () => {
     },
     {
       name: "Développer pour une organisation",
-      pdf: "https://etoile-astro.vercel.app/",
+      pdf: "./assets/projet_etoile.pdf",
       img: "/assets/gym.svg",
       type: "Développement",
     },
@@ -89,6 +89,12 @@ const Projet = () => {
       name: "Active directory",
       pdf: "./assets/projet_ad.pdf",
       img: "./assets/ad.svg",
+      type: "Système",
+    },
+    {
+      name: "Installation avec Docker",
+      pdf: "./assets/projet_docker_glpi.pdf",
+      img: "./assets/docker.svg",
       type: "Système",
     },
   ];
