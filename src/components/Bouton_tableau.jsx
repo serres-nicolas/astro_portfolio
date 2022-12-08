@@ -5,8 +5,8 @@ function Bouton_tableau() {
     <div className="contentbtn">
       <a
         className="glassbtn"
-        href="./assets/t1.pdf"
-        download="t1.pdf"
+        href="./assets/tbsynth.pdf"
+        download="tbsynth.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
