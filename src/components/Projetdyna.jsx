@@ -14,10 +14,10 @@ const Projet = () => {
       type: "Développement",
     },
     {
-      name: "FreecodeCamp",
-      pdf: "./assets/projet_freecodecamp.pdf",
-      img: "./assets/free-code-camp.svg",
-      type: "Développement",
+      name: "KiwiSyslog",
+      pdf: "./assets/projet_syslog.pdf",
+      img: "./assets/solarwinds.svg",
+      type: "Système",
     },
     {
       name: "PHP menu",
@@ -39,7 +39,7 @@ const Projet = () => {
     },
     {
       name: "Cisco Packet",
-      pdf: "./assets/projet_cisco.pdf",
+      pdf: "./assets/projet_spanningtree.pdf",
       img: "./assets/envelope-regular.svg",
       type: "Réseau",
     },
