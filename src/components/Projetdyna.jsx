@@ -80,7 +80,7 @@ const Projet = () => {
       type: "Système",
     },
     {
-      name: "Gitlab",
+      name: "Git",
       pdf: "./assets/projet_gitlab.pdf",
       img: "./assets/gitlab2.svg",
       type: "Développement",
