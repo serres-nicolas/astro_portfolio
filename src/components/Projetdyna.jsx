@@ -51,7 +51,7 @@ const Projet = () => {
     },
     {
       name: "Astro",
-      pdf: "./assets/astro_project.pdf",
+      pdf: "./assets/projet_astro.pdf",
       img: "/assets/favicon.svg",
       type: "Développement",
     },
