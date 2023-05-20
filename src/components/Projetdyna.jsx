@@ -9,7 +9,7 @@ const Projet = () => {
   const array_projet = [
     {
       name: "Python Socket",
-      pdf: pythonPdf,
+      pdf: "./assets/projet_python.pdf",
       img: "./assets/python.svg",
       type: "Développement",
     },
