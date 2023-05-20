@@ -75,7 +75,7 @@ const Projet = () => {
     },
     {
       name: "Git",
-      pdf: "./assets/projet_gitlab.pdf",
+      pdf: "./assets/projet_git.pdf",
       img: "./assets/gitlab2.svg",
       type: "Développement",
     },
