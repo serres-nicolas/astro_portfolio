@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import CardProjet from "./CardProjet";
 import "../styles/Projetdyna.css";
-import pythonPdf from "../../public/assets/projet_python.pdf";
 
 const Projet = () => {
   const [rangeValue, setRangeValue] = useState(36);
@@ -17,7 +16,7 @@ const Projet = () => {
       name: "KiwiSyslog",
       pdf: "./assets/projet_syslog.pdf",
       img: "./assets/solarwinds.svg",
-      type: "Système",
+      type: ["E5", "Système"],
     },
     {
       name: "PHP menu",
@@ -71,7 +70,7 @@ const Projet = () => {
       name: "Glpi",
       pdf: "./assets/projet_glpi.pdf",
       img: "./assets/g.svg",
-      type: "Système",
+      type: ["E5", "Système"],
     },
     {
       name: "Git",
@@ -87,7 +86,7 @@ const Projet = () => {
     },
   ];
 
-  const radioss = ["Développement", "Réseau", "Système"];
+  const radioss = ["Développement", "Réseau", "Système", "E5"];
 
   return (
     <div className="containerprojet">
