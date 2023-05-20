@@ -44,12 +44,6 @@ const Projet = () => {
       type: "Réseau",
     },
     {
-      name: "React JS",
-      pdf: "./assets/react_projet.pdf",
-      img: "./assets/react.svg",
-      type: "Développement",
-    },
-    {
       name: "Astro",
       pdf: "./assets/projet_astro.pdf",
       img: "/assets/favicon.svg",
@@ -84,12 +78,6 @@ const Projet = () => {
       pdf: "./assets/projet_gitlab.pdf",
       img: "./assets/gitlab2.svg",
       type: "Développement",
-    },
-    {
-      name: "Active directory",
-      pdf: "./assets/projet_ad.pdf",
-      img: "./assets/ad.svg",
-      type: "Système",
     },
     {
       name: "Installation avec Docker",
