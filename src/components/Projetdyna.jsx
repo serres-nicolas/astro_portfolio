@@ -16,7 +16,7 @@ const Projet = () => {
       name: "KiwiSyslog",
       pdf: "./assets/projet_syslog.pdf",
       img: "./assets/solarwinds.svg",
-      type: ["E5", "Système"],
+      type: "E5",
     },
     {
       name: "PHP menu",
@@ -70,7 +70,7 @@ const Projet = () => {
       name: "Glpi",
       pdf: "./assets/projet_glpi.pdf",
       img: "./assets/g.svg",
-      type: ["E5", "Système"],
+      type: "E5",
     },
     {
       name: "Git",
